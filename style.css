@@ -215,11 +215,12 @@ aside > div >h2{
    
     
 }
+
 .hab1, .hab2, .hab3, .hab4, .hab5{
 
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 10px;
-    margin: 5px;
+    margin: 25px;
     background-color:white;
     border-radius: 10px 0px 10px 0px;
     font-family: var(--fonte-destaque);
