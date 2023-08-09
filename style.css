@@ -20,8 +20,12 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background: rgb(49,77,69);
-    background: linear-gradient(180deg, rgba(49,77,69,1) 17%, rgba(148,98,50,1) 40%, rgba(241,225,151,1) 61%);
+    background-image: url(img/planodefundosite.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    
     
 
 }
@@ -33,13 +37,15 @@ body{
     margin: auto; 
     min-width:300px;
     max-width: 1200px;
+    min-height: 200px;
     background-color: white;
     text-shadow: 4px 4px 10px black;
     color: white;
-    min-height: 200px;
     background-image: url(img/navfundo.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    background-attachment: fixed; 
     text-shadow: 5px 4px 1px black; 
     border-left: 3px solid black;
     border-right: 3px solid black;
@@ -243,12 +249,18 @@ aside > div >h2{
 .strong{
     font-weight: bold;
 }
+.divtutorial{
+    background: rgb(87,144,122);
+    background: linear-gradient(180deg, rgba(87,144,122,1) 1%, rgba(148,98,50,1) 33%, rgba(148,98,50,1) 71%, rgba(191,137,68,1) 97%);
+}
+
 .videoguia{
     position: relative;
     margin: 0px;/*Margens do video */
     padding: 20px;/*Espaço do video */
     position: relative;/*Encaixa o video dentro da div */
     padding-bottom: 56.5%;/*Alinhar video no background */
+    
 }
 .videoguia > iframe{
     position: absolute;
@@ -259,26 +271,26 @@ aside > div >h2{
 }
 
 footer{
-    font-family: var(--fonte-padrao); 
+    font-family: var(--fonte-destaque); 
     text-align: center;
     margin: auto;
     background: rgb(49,77,69);
     background: linear-gradient(180deg, rgba(49,77,69,1) 45%, rgba(148,98,50,1) 69%, rgba(241,225,151,1) 95%);
     border-radius: 0px 0px 30px 30px;
     border: 3px solid black;  
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 20pxem;
+    font-weight: bolder;
     color: white;
-    text-shadow: 5px 4px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 footer > a{
     text-decoration: none;
     color: white;
     padding: 1px 8px 0px 5px;
-    font-family:var(--fonte-padrao);
-    font-size: 25px;
-    font-weight: bold;
-    text-shadow: 5px 4px 1px black;
+    font-family:var(--fonte-destaque);
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
     transition-duration: 0.5s;
 }
 footer > a:hover{
